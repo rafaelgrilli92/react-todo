@@ -1,7 +1,7 @@
 {
-  "name": "ReactTimerApp",
+  "name": "ReactBoilerplateFull",
   "version": "1.0.0",
-  "description": "An empty React Project",
+  "description": "An empty Full React Project",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
