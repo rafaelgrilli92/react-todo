@@ -22,10 +22,9 @@ module.exports = {
 	},
 	resolve: {
 		root: __dirname,
+		modulesDirectories: ['node_modules', './app/components', './app/components/Layout'],
 		alias: {
-			ApplicationStyles: 'app/styles/app.scss',
-			Main: 'app/components/Layout/Main.jsx',
-			Nav: 'app/components/Layout/Nav.jsx'
+			ApplicationStyles: 'app/styles/app.scss'
 		},
 		extensions: ['','.js', '.jsx']
 	},
