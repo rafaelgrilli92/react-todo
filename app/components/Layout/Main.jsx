@@ -4,6 +4,10 @@ var React = require('react');
 var NavBar = require('Nav');
 
 var Main = (props) => {
+	setTimeout(() => {
+		$('body').addClass('teste')
+	}, 5000)
+	
 	return (
 		<div>
 			<NavBar />
