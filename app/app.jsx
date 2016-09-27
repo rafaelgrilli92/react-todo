@@ -8,7 +8,7 @@ var TodoApp = require('TodoApp');
 $(document).foundation();
 
 // App CSS
-require('style!css!sass!ApplicationStyles');
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
 	<TodoApp />, 
